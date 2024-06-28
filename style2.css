@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+.cover{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(Image2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.login{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top:100px;
+    left:40px;
+    text-align: center;
+    color:antiquewhite;
+    border-style: double;
+    border-radius: 15%;
+    border-width: 10px;
+    border-color: antiquewhite;
+}
+.login h2{
+    padding: 20px;
+    font-size:40px;
+    text-decoration: underline;
+}
+.abc{
+    padding: 10px 0;
+    width: 90px;
+    text-align:center;
+    border:5px double rgb(234, 191, 135);
+    border-radius: 25px;
+    background:transparent;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+}
